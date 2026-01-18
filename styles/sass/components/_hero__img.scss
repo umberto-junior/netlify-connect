@@ -1,24 +1,20 @@
-.hero__figure{
+.hero__img{
     border-radius: 50%;
-     box-shadow: 0 0 0 0.5rem var(--color-primary-70), 
+    box-shadow: 0 0 0 0.5rem var(--color-primary-70), 
                 0 0 0 1rem var(--color-primary-80), 
                 0 0 0 1.5rem var(--color-primary-90);
-    height: 15rem;
-    margin: 0;
-    overflow: hidden;
-    width: 15rem;
+    height: 15em;
+    width: 15em;
 }
 
 @media screen and (min-width: 1024px) {
-    .hero__figure{
+    .hero__img{
         box-shadow: 0 0 0 1.5rem var(--color-primary-70), 
                     0 0 0 3rem var(--color-primary-80), 
                     0 0 0 4.5rem var(--color-primary-90);
-        height: clamp(480px, 55vw, 720px);
-        width: clamp(480px, 55vw, 720px);
+        display: block;
+        height: 35em;
+        margin-left: auto;
+        width: 35em;
     }
-}
-
-.figure__img{
-    object-position: 100% 90%;
 }

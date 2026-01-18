@@ -1,14 +1,16 @@
-@import "./utilities/variables";
+@use "./utilities/variables";
 
-@import "./base/base";
-@import "./base/img";
-@import "./base/typography";
+@use "./base/base";
+@use "./base/img";
+@use "./base/typography";
 
-@import "./layout/hero__content";
-@import "./layout/nav";
+@use "./layout/hero__content";
+@use "./layout/hero__figure";
+@use "./layout/hero__text";
+@use "./layout/nav";
 
-@import "./components/buttons";
-@import "./components/figure";
-@import "./components/hyperlink";
-@import "./components/logo";
-@import "./components/menu";
+@use "./components/buttons";
+@use "./components/hyperlink";
+@use "./components/hero__img";
+@use "./components/logo";
+@use "./components/menu";

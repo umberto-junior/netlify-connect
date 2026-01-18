@@ -19,20 +19,20 @@
         <button class="btn">Subscribe</button>
     </nav>
 
+    
     <section id="hero__content">
-        <h1>Discover. Learn. Share. Discover. Learn. Share. </h1>
-        <p>Lorem, ipsum dolor sit <a href="">amet consectetur</a> adipisicing elit. Sed, quidem autem! Illo, nobis accusamus dolores officiis voluptatum quae libero. Fugit, quos. Earum, neque distinctio obcaecati quia ratione ea assumenda.</p>
-        <a class="hyperlink hyperlink--navigation" type="nav" href="">Simple hyperlink</a>
-
-        <!--<figure class="hero__figure">
-            <img
-                class="figure__img"
-                srcset="./img/fireworks-254w.jpeg 254w,
-                        ./img/fireworks.jpeg 29123w"
-                sizes="(max-width:1024px) 254px, 2912px" 
-                src="./img/fireworks.jpeg" 
-                alt="Man holding camera looking at fireworks">
-        </figure>-->
+        <picture id="hero__figure">
+            <source media="(max-width: 640px)" srcset="./img/fireworks-480.webp">
+            <source media="(min-width: 641px)" srcset="./img/fireworks-960.webp">
+            <img class="hero__img" src="./img/fireworks-960.webp" height="625" width="480"
+                alt="Silhouette of a person standing on a grassy hill at twilight, holding a camera, beneath a large burst of golden fireworks. The sky transitions from reddish near the horizon to deep teal above, with scattered clouds and faint stars visible, creating a dramatic contrast between the bright fireworks and the dark figure."
+                title="Hero Image">
+        </picture>
+        <div id="hero__text">
+            <h1>Discover. Learn. Share.</h1>
+            <p>Lorem, ipsum dolor sit <a href="">amet consectetur</a> adipisicing elit. Sed, quidem autem! Illo, nobis accusamus dolores officiis voluptatum quae libero. Fugit, quos. Earum, neque distinctio obcaecati quia ratione ea assumenda.</p>
+            <a class="hyperlink hyperlink--navigation" type="nav" href="">Simple hyperlink</a>
+        </div>
     </section>
 </body>
 </html>

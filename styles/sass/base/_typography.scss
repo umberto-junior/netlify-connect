@@ -2,7 +2,13 @@ a{
     color: inherit;
     font-size: 0.875rem;
     text-underline-position: under;
+    transition: 350ms;
 }
+    
+a:hover{
+    color: var(--color-light-gray);
+    text-decoration: underline;
+} 
 
 p{
     font-size: 0.875rem;

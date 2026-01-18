@@ -8,9 +8,10 @@
     display: flex;
     font-family: inherit;
     font-size: 0.75rem;
-    height: 2rem;
+    font-weight: 700;
+    height: 2.5rem;
     justify-content: center;
-    letter-spacing: 0.0625rem;
+    letter-spacing: 0.125rem;
     min-width: 10rem;
     padding: 0.5rem 2rem;
     text-align: center;
@@ -20,7 +21,8 @@
 }
 
 .btn:hover{
-    background-color: var(--color-light-gray);
-    border-color: var(--color-light-gray);
+    background-color: var(--color-dark);
+    border-color: var(--color-dark);
+    color: var(--color-light);
     letter-spacing: normal;
 }
