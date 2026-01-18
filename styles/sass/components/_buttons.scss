@@ -1,0 +1,26 @@
+.btn{
+    align-items: center;
+    border: 0.125rem solid;
+    border-radius: 2rem;
+    background-color: transparent;
+    color: inherit;
+    cursor: pointer;
+    display: flex;
+    font-family: inherit;
+    font-size: 0.75rem;
+    height: 2rem;
+    justify-content: center;
+    letter-spacing: 0.0625rem;
+    min-width: 10rem;
+    padding: 0.5rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 350ms;
+}
+
+.btn:hover{
+    background-color: var(--color-light-gray);
+    border-color: var(--color-light-gray);
+    letter-spacing: normal;
+}

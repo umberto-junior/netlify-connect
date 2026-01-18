@@ -1,0 +1,14 @@
+.hyperlink--navigation{
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: -0.0125rem;
+    line-height: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.hyperlink--navigation:after {
+    content: "̶̶̶̶ ";
+    margin-left: 0.5rem;
+    vertical-align: -0.075rem;
+}
